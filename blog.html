@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Quiz Hero Blog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              fontFamily: {
+                common: ["Rubik", "sans-serif"],
+              },
+            },
+          },
+        };
+      </script>
+</head>
+<body class="bg-white font-common">
+
+    <!-- Header/Navbar section start -->
+    <header class="h-16 flex items-center shadow-sm">
+        <nav class="flex justify-between items-center w-9/12 mx-auto">
+          <div class="text-zinc-800 font-bold uppercase">
+            <h1 class="text-lg">Quiz <span class="text-green-700">HERO</span></h1>
+            <p class="text-[10px] font-normal capitalize -mt-1">
+              Get ready to Quiz and be amazed!
+            </p>
+          </div>
+          <button onclick="location.replace('index.html');"
+            class="bg-green-600 font-light text-sm px-5 py-1 rounded text-white"
+          >
+            Back
+          </button>
+        </nav>
+      </header>
+      <!-- Header/Navbar section end -->
+
+      <main class="m-20">
+        <p>
+            Blog Answers:<br><br><br><br>
+             1. _The map() method creates a new array from calling a function for every array element. <br>
+                _The filter() method creates a new array filled with elements that pass a test provided by a function.<br>
+                _The forEach() method calls a function for each element in an array.<br>
+                _The find() method executes a function for each array element and returns the value of the first element that passes a test.<br>
+                _None of them changes the original array.<br>
+             2. _The localStorage object allows you to save data key/value pairs in the browser. It stores data with no expiration date. The data is not deleted when the browser is closed and are available for future sessions.<br>
+                _The sessionStorage object stores data for only one session. The data is deleted when the browser is closed.<br>
+                _Cookies are data, stored in small text files, on your computer. They let you store user information in web pages. When a browser requests a web page from a server, cookies belonging to the page are added to the request. This way the server gets the necessary data to "remember" information about users.<br>
+             3. JavaScript has a runtime model based on an event loop, which is responsible for executing the code, collecting and processing events, and executing queued sub-tasks. This model is quite different from models in other languages like C and Java.<br>
+             4. quizTimer() function is used to record the time needed to complete the quiz. This quiz is supposed to be completed in one minute so after one minute is gone digits of the timer become more red.<br>
+             5. chooseQuiz() function maybe used to find if the given answer is correct or not and count how many answers are correct.<br><br><br><br>
+
+                             _took some help from w3schools and Mozilla Developer Network.
+    
+
+
+        </p>
+      </main>
+  
+    
+</body>
+</html>
