@@ -1,7 +1,2 @@
-# Quiz Hero Now Zero
-
-### Private Repo Link
-Click Here to create [private repo](https://classroom.github.com/a/xhXEYY1C)
-
-Private Repo link: [https://classroom.github.com/a/xhXEYY1C](https://classroom.github.com/a/xhXEYY1C)
-"# quiz" 
+## Project Overview
+5.25 **quiz** ([Code-Link](https://github.com/asif93-138/quiz.git)) ([Live-Site](https://asif93-138.github.io/quiz/))
